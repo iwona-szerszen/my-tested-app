@@ -17,9 +17,9 @@ class Headline extends Component {
 		}
 
 		return (
-			<div>
-				<h1>{header}</h1>
-				<p>{description}</p>
+			<div data-test='headlineComponent'>
+				<h1 data-test='header'>{header}</h1>
+				<p data-test='description'>{description}</p>
 			</div>
 		);
 	}

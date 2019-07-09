@@ -25,7 +25,7 @@ class ListItem extends Component {
 
 ListItem.propTypes = {
 	title: PropTypes.string,
-	descr: PropTypes.string
+	desc: PropTypes.string
 };
 
 export default ListItem;
